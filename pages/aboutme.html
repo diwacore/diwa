@@ -10,46 +10,6 @@
     <meta name="author" content="Maura Yap">
     <link href="https://diwacore.github.io/layout.css" rel="stylesheet" type="text/css" media="all">
     <link href="https://diwacore.github.io/style.css" rel="stylesheet" type="text/css" media="all">
-
-    <script type="text/javascript">
-    // <![CDATA[
-    var speed=100; // speed of wobbling, lower is faster
-    var height=1; // height of wobbling in pixels
-    var alink="https://tamanotchi.world/12265c"; // page to link text to (set to ="" for no link)
-    
-    /****************************
-    *    Wobbly Text Effect     *
-    *(c) 2003-6 mf2fm web-design*
-    *  http://www.mf2fm.com/rv  *
-    * DON'T EDIT BELOW THIS BOX *
-    ****************************/
-    var wobtxt, wobble, wobcnt=0;
-    window.onload=function() { if (document.getElementById) {
-      var i, wobli;
-      wobble=document.getElementById("wobble");
-      wobtxt=wobble.firstChild.nodeValue;
-      while (wobble.childNodes.length) wobble.removeChild(wobble.childNodes[0]);
-      for (i=0; i<wobtxt.length; i++) {
-        wobli=document.createElement("span");
-        wobli.setAttribute("id", "wobb"+i);
-        wobli.style.position="relative";
-        wobli.appendChild(document.createTextNode(wobtxt.charAt(i)));
-        if (alink) {
-          wobli.style.cursor="pointer";
-          wobli.onclick=function() { top.location.href=alink; }
-        }
-        wobble.appendChild(wobli);
-      }
-      setInterval("wobbler()", speed);
-    }}
-    
-    function wobbler() {
-      for (var i=0; i<wobtxt.length; i++) document.getElementById("wobb"+i).style.top=Math.round(height*Math.sin(i+wobcnt))+"px"
-      wobcnt++;
-    }
-    // ]]>
-    </script>
-    
   </head>
 
 <body>
@@ -90,66 +50,68 @@
     </div>
     </div></div>
 
-  <div class=sidebar-right><div class=box>
-    <div class=inner>
-    <style>
-        #text:hover {
-          margin-right: 4px;
-        }
-        .div-b {
-          font-size:16px;
-        }
-        a {
-          color: blue;
-        
-        }
-        li:hover {
-          margin-left:5px;
+    <div class=sidebar-right><div class=box>
+      <div class=inner>
+      <style>
+          #text:hover {
+            margin-right: 4px;
           }
-        
-        .no:hover{
-          margin:0px
-        }
-    </style>
-    <div class="navi-div-container">
-      <div class="navi-div-text">welcome!</div>
+          .div-b {
+            font-size:16px;
+          }
+          a {
+            color: blue;
+          
+          }
+          li:hover {
+            margin-left:5px;
+            }
+          
+          .no:hover{
+            margin:0px
+          }
+      </style>
+      <div class="navi-div-container">
+        <div class="navi-div-text">welcome!</div>
+      </div>
+          <ol>
+          <li><img src="https://www.fancyparts.com/fancyparts/cg/icon/ball01/ball_s_16.gif"> <a href="/index.html">home</a> <img src="https://cdn.discordapp.com/attachments/1234846126994227272/1235262706509025330/construction-sites-077.gif?ex=6633bb8b&is=66326a0b&hm=18062d66ec8c45289ada01257125c0c2edb9729876062bb4de7b01b0e6240792&" style="width: auto; height: 10px;">
+          <li><img src="https://www.fancyparts.com/fancyparts/cg/icon/ball01/ball_s_16.gif"> <a href="/pages/aboutme.html">about me</a> <img src="https://cdn.discordapp.com/attachments/1234846126994227272/1235262706509025330/construction-sites-077.gif?ex=6633bb8b&is=66326a0b&hm=18062d66ec8c45289ada01257125c0c2edb9729876062bb4de7b01b0e6240792&" style="width: auto; height: 10px;">
+          <li><img src="https://www.fancyparts.com/fancyparts/cg/icon/ball01/ball_s_16.gif"> <a href="/pages/contact.html">contact</a> <img src="https://cdn.discordapp.com/attachments/1234846126994227272/1235262706509025330/construction-sites-077.gif?ex=6633bb8b&is=66326a0b&hm=18062d66ec8c45289ada01257125c0c2edb9729876062bb4de7b01b0e6240792&" style="width: auto; height: 10px;">
+          <li><img src="https://www.fancyparts.com/fancyparts/cg/icon/ball01/ball_s_16.gif"> <a href="/pages/sitelog.html">site news</a>
+          </ol>
+  
+      <div class="navi-div-container">
+        <div class="navi-div-text">the blog</div>
+      </div>
+  
+          <ol>
+          <li><img src="https://www.fancyparts.com/fancyparts/cg/icon/ball01/ball_s_16.gif"> <a href="/pages/blog.html">BLOG</a><font color="red"> <b>!!!</b></font> <img src="https://cdn.discordapp.com/attachments/1234846126994227272/1235262706509025330/construction-sites-077.gif?ex=6633bb8b&is=66326a0b&hm=18062d66ec8c45289ada01257125c0c2edb9729876062bb4de7b01b0e6240792&" style="width: auto; height: 10px;">
+          <li><img src="https://www.fancyparts.com/fancyparts/cg/icon/ball01/ball_s_16.gif"> <a href="/pages/words.html">words</a> <img src="https://cdn.discordapp.com/attachments/1234846126994227272/1235262706509025330/construction-sites-077.gif?ex=6633bb8b&is=66326a0b&hm=18062d66ec8c45289ada01257125c0c2edb9729876062bb4de7b01b0e6240792&" style="width: auto; height: 10px;">
+          <li><img src="https://www.fancyparts.com/fancyparts/cg/icon/ball01/ball_s_16.gif"> <a href="/pages/art.html">art</a> <img src="https://cdn.discordapp.com/attachments/1234846126994227272/1235262706509025330/construction-sites-077.gif?ex=6633bb8b&is=66326a0b&hm=18062d66ec8c45289ada01257125c0c2edb9729876062bb4de7b01b0e6240792&" style="width: auto; height: 10px;">
+          </ol>
+  
+          <div class="navi-div-container">
+            <div class="navi-div-text">offsite</div>
+          </div>
+  
+          <ol>
+          <li><img src="https://www.fancyparts.com/fancyparts/cg/icon/ball01/ball_s_16.gif"> <a href="https://bento.me/diwa">bento.me</a>
+          <li><img src="https://www.fancyparts.com/fancyparts/cg/icon/ball01/ball_s_16.gif"> <a href="https://www.antoineross.com">bf ⸜(｡˃ ᵕ ˂)⸝♡</a>
+          </ol>
+          <a href="https://diwa.123guestbook.com" alt="Sign my Guestbook"><img src="https://cdn.discordapp.com/attachments/1234846126994227272/1235142601452027954/glitter-guest.gif?ex=66334bb0&is=6631fa30&hm=9d4948e2e1465633e417a7c97de6633d05744ad5cbb41836eea3209a68874d01&"></a>
+      </div></div>
     </div>
-        <ol>
-        <li><img src="https://www.fancyparts.com/fancyparts/cg/icon/ball01/ball_s_16.gif"> <a href="/index.html">home</a>
-        <li><img src="https://www.fancyparts.com/fancyparts/cg/icon/ball01/ball_s_16.gif"> <a href="/aboutme.html">about me</a>
-        <li><img src="https://www.fancyparts.com/fancyparts/cg/icon/ball01/ball_s_16.gif"> <a href="/contact.html">contact</a>
-        <li><img src="https://www.fancyparts.com/fancyparts/cg/icon/ball01/ball_s_16.gif"> <a href="/sitelog.html">site news</a>
-        </ol>
-
-    <div class="navi-div-container">
-      <div class="navi-div-text">the blog</div>
-    </div>
-
-        <ol>
-        <li><img src="https://www.fancyparts.com/fancyparts/cg/icon/ball01/ball_s_16.gif"> <a href="/blog.html">BLOG</a><font color="red"> <b>!!!</b></font>
-        <li><img src="https://www.fancyparts.com/fancyparts/cg/icon/ball01/ball_s_16.gif"> <a href="/words.html">words</a>
-        <li><img src="https://www.fancyparts.com/fancyparts/cg/icon/ball01/ball_s_16.gif"> <a href="/art.html">art</a>
-        </ol>
-
-        <div class="navi-div-container">
-          <div class="navi-div-text">offsite</div>
-        </div>
-
-        <ol>
-        <li><img src="https://www.fancyparts.com/fancyparts/cg/icon/ball01/ball_s_16.gif"> <a href="https://www.antoineross.com">bf ⸜(｡˃ ᵕ ˂)⸝♡</a>
-        </ol>
-        <a href="https://diwa.123guestbook.com" alt="Sign my Guestbook"><img src="https://cdn.discordapp.com/attachments/1234846126994227272/1235142601452027954/glitter-guest.gif?ex=66334bb0&is=6631fa30&hm=9d4948e2e1465633e417a7c97de6633d05744ad5cbb41836eea3209a68874d01&"></a>
-    </div></div>
-  </div>
 
   <div class=footer>
     <p>© 2024 diwa. glued together using washi tape, yanyan, and <a href="https://eggramen.neocities.org/code/css_testpages">eggramen</a>.</p>
     <p>
-        <a href="https://goblin-heart.net/sadgrl/" alt="Goblin Heart"><img src="https://cdn.discordapp.com/attachments/1234846126994227272/1234846161748099072/sadgrlonline.gif?ex=6632379b&is=6630e61b&hm=9a5991f75911b38cd4e77414fa2a4841da9737c3e219de76619bb537ca9c942a&"></a>
+        <a href="https://goblin-heart.net/sadgrl/" alt="Goblin Heart"><img src="https://goblin-heart.net/sadgrl/assets/images/buttons/sadgrlonline.gif"></a>
         <a href="https://www.fancyparts.com/index.html" alt="Fancy Parts"><img src="https://www.fancyparts.com/fancyparts/cg/hp_parts/shop8831.gif"></a>
-        <a href="https://status.cafe"><img src="https://status.cafe/assets/button.png" alt="Status Cafe"/></a>
         <a href="https://swirl.neocities.org/template/luckytheme-CODE"><img src="https://cdn.discordapp.com/attachments/1234846126994227272/1234919643802505247/swirl.gif?ex=66327c0a&is=66312a8a&hm=1a1ce894cc62d644786573d2e36445a4a1bb6baa2e2d8c89e0e3b448c147f1dd&" alt="Swirl"/></a>
-    </p>
+        <a href="https://tamanotchi.world"><img src="https://tamanotchi.world/includes/img/tamanotchi.gif" alt="TamaNOTchi Badge"></a>
+        <a href="https://status.cafe"><img src="https://status.cafe/assets/button.png" alt="Status Cafe"/></a>
+      </p>
     </div>
 
 </body>
