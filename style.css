@@ -1,12 +1,17 @@
+@font-face {
+  font-family: "backup"; 
+  src: url("msUIgothic.ttf") format("truetype");
+}
+
 body {
     background-color: #fff;
     background-image: url("https://64.media.tumblr.com/e13a7db6324a9d71038fc68dfbf34755/7b1689580e284ac9-85/s500x750/a017251250a2621f3d54d21e074153d50e88c5b5.pnj");
     font-size: 14px;
-    font-family: MS UI Gothic,  Arial, sans-serif;
+    font-family: MS UI Gothic,  backup, 'Courier New', Courier, monospace;
     padding: 0;
     margin: 0;
     }
-    
+
   .wrapper {
     background: none;
     margin: 0 auto;
