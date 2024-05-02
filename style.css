@@ -1,6 +1,6 @@
 body {
     background-color: #fff;
-    background-image: url("https://cdn.discordapp.com/attachments/1234846126994227272/1234973653997977621/dithered-image.png?ex=6632ae57&is=66315cd7&hm=e3cd334ffb8f574655423ab074003d5486def76341376a5d36a6da721606bf8e&");
+    background-image: url("https://64.media.tumblr.com/e13a7db6324a9d71038fc68dfbf34755/7b1689580e284ac9-85/s500x750/a017251250a2621f3d54d21e074153d50e88c5b5.pnj");
     font-size: 14px;
     font-family: MS UI Gothic,  Arial, sans-serif;
     padding: 0;
@@ -15,7 +15,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url("https://64.media.tumblr.com/1906d268e6b570648f0b7b846bba1b8c/3e3bd4686b965f3d-4a/s75x75_c1/976002a6577af56e95618bf81d7930643ba2bc60.gifv");
+    background-image: url("https://64.media.tumblr.com/8e085bb8080cb9bbf98d339240bbe3e6/7b1689580e284ac9-09/s75x75_c1/7b839a41b3dcc47b16a398501f79058ed811e07c.pnj");
     border-radius: 12px;
     }
 
@@ -100,13 +100,6 @@ body {
     justify-content: center; /* Centers content horizontally */
     align-items: center; /* Centers content vertically */
     height: 100%; /* Ensures the div takes up the full height of its container if not already set */
-  }
-
-  .inner-px {
-  background: #fff;
-  padding: 0.25em 1em 0.3em 1em;
-  font-size: 14px;
-  height: 106px;
   }
 
   ol {
