@@ -287,3 +287,25 @@ body {
 .circleClip {
   clip-path: circle(48.2% at 50% 50%);
 }
+
+/* TABLES */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  text-align: justify;
+  font-weight: normal;
+  padding: 0px 13px 0px 0px;
+  vertical-align: top ;
+}
+
+tr th:nth-child(4) {
+  padding: 0px 0px 0px 0px;
+  vertical-align: top ;
+}

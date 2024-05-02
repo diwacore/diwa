@@ -16,8 +16,10 @@
     - Ayano (https://virtualobserver.moe/)
 */
 
+
+
 // The values in this section are REQUIRED for the widget to work! Keep them in quotes!
-const s_stylePath = 'E:\diwa.github.io\comment\comment-widget.css';
+const s_stylePath = '/comment/comment-widget-pink.css';
 const s_formId = '1FAIpQLSc7Qu9duL2he3lx6kxuwnqwDLAm_V3KSuIfW_uqea0Vvm4f8A';
 const s_nameId = '138001709';
 const s_websiteId = '592353914';
@@ -52,18 +54,18 @@ const s_filteredWords = [ // Add words to filter by putting them in quotes and s
 ]
 
 // Text - Change what messages/text appear on the form and in the comments section (Mostly self explanatory)
-const s_widgetTitle = 'Leave a comment!';
-const s_nameFieldLabel = 'Name';
-const s_websiteFieldLabel = 'Website (Optional)';
+const s_widgetTitle = 'leave a comment!';
+const s_nameFieldLabel = 'name';
+const s_websiteFieldLabel = 'website (optional!)';
 const s_textFieldLabel = '';
-const s_submitButtonLabel = 'Submit';
-const s_loadingText = 'Loading comments...';
-const s_noCommentsText = 'No comments yet!';
-const s_closedCommentsText = 'Comments are closed temporarily!';
-const s_websiteText = 'Website'; // The links to websites left by users on their comments
-const s_replyButtonText = 'Reply'; // The button for replying to someone
-const s_replyingText = 'Replying to'; // The text that displays while the user is typing a reply
-const s_expandRepliesText = 'Show Replies';
+const s_submitButtonLabel = 'share';
+const s_loadingText = 'loading comments...';
+const s_noCommentsText = 'no comments yet!';
+const s_closedCommentsText = 'comments are closed temporarily!';
+const s_websiteText = 'with love'; // The links to websites left by users on their comments
+const s_replyButtonText = 'reply'; // The button for replying to someone
+const s_replyingText = 'replying to'; // The text that displays while the user is typing a reply
+const s_expandRepliesText = 'show replies';
 const s_leftButtonText = '<<';
 const s_rightButtonText = '>>';
 
@@ -91,8 +93,6 @@ const v_mainHtml = `
     <div id="c_container">${s_loadingText}</div>
 `;
 const v_formHtml = `
-    <h2 id="c_widgetTitle">${s_widgetTitle}</h2>
-
     <div id="c_nameWrapper" class="c-inputWrapper">
         <label class="c-label c-nameLabel" for="entry.${s_nameId}">${s_nameFieldLabel}</label>
         <input class="c-input c-nameInput" name="entry.${s_nameId}" id="entry.${s_nameId}" type="text" maxlength="${s_maxLengthName}" required>
@@ -371,13 +371,13 @@ function createComment(data) {
     comment.id = id;
 
     // Name of user
-    let name = document.createElement('h3');
+    let name = document.createElement('p');
     let filteredName = data.Name;
     if (s_wordFilterOn) {filteredName = filteredName.replace(v_filteredWords, s_filterReplacement)}
     name.innerText = filteredName;
     name.className = 'c-name';
     if(data.Moderated == false) {
-        name.innerText = 'Guest'; // Change 'Guest' to whatever you want
+        name.innerText = 'guest'; // Change 'Guest' to whatever you want
     }
     comment.appendChild(name);
 
@@ -466,7 +466,7 @@ function getDayNum(day) {
     }
     return num;
 }
-function getMonthNum(month) {
+function getMonthNum(month) { 
     let num;
     switch (month.toLowerCase()) {
         case 'january': num = 0; break;

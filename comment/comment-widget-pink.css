@@ -53,56 +53,37 @@
 */
 
 /* Main */
-#c_widget {
-    box-sizing: border-box;
-    height: 100%;
-    padding: 15px;
-    overflow: auto;
-    background-image: url('bow-bg.gif'); /* F2U background provided by https://sadgrl.online/webmastery/downloads/tiledbgs */
-    background-attachment: fixed;
-    font-family: 'Trebuchet MS';
-    font-size: 14px;
-    color: #211F24;
-}
 
 #c_widget button, #c_widget input[type=submit] {
     padding: 4px;
     text-decoration: none;
 	text-transform: lowercase;
 	text-align: center;
-    background-color: white;
-    color: #CE98FB;
-    border: 1px solid #CE98FB;
+    background-color: #fada83;
+    color: white;
+    border: 1px solid #fada83;
     border-radius: 5px;
 }
 #c_widget button:hover, #c_widget input[type=submit]:hover {
-    background-color: #FB96D8;
-    color: white;
-    border: 1px solid #FB96D8;
+    background-color: white;
+    color: #fada83;
+    border: 1px solid #fada83;
 }
 #c_widget button:disabled, #c_widget input[type=submit]:disabled {opacity: 60%;}
 #c_widget button:disabled:hover, #c_widget input[type=submit]:disabled:hover {
     background-color: white;
-    color: #CE98FB;
-    border: 1px solid #CE98FB;
+    color: #fada83;
+    border: 1px solid #fada83;
 }
 
 /* Input section */
 #c_inputDiv {
-    padding: 10px;
+    padding: 5px 10px 10px 10px;
     text-transform: lowercase;
     background-color: rgba(255, 255, 255, .8);
-    border: 1px dashed #CE98FB;
     border-radius: 5px;
 }
 #c_container {margin-top: 10px;}
-
-#c_widgetTitle {
-    margin: 0;
-    padding: 0;
-    font-style: italic;
-    text-decoration: underline;
-}
 
 .c-inputWrapper {
     display: block;
@@ -113,7 +94,7 @@
     padding: 4px;
     color: #5E2C49;
     border-radius: 4px;
-    border: 1px solid #CE98FB;
+    border: 1px solid #9ad3f4;
 	outline: none;
 }
 .c-input:focus {border: 1px solid #FB96D8;}
@@ -128,11 +109,10 @@
 
 /* Comment section */
 .c-comment {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 10px 10px 10px;
     padding: 10px;
     background-color: rgba(255, 255, 255, .75);
-    border: 1px dashed #CE98FB;
+    border: 1px dashed #9ad3f4;
     border-radius: 4px;
 }
 .c-reply {
@@ -140,7 +120,7 @@
     margin-bottom: 10px;
     padding: 10px;
     background-color: rgba(255, 255, 255, 1);
-    border: 1px dashed #CE98FB;
+    border: 1px dashed #9ad3f4;
     border-radius: 4px;
 }
 .c-reply:last-child {margin-bottom: 0;}
@@ -148,9 +128,11 @@
 .c-name {
     display: inline-block;
     margin: 0;
-    margin-right: 10px;
+    margin-right: 3px;
     padding: 0;
-    text-decoration: underline;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .c-site {
     text-transform: lowercase;
