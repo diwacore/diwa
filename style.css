@@ -141,47 +141,8 @@ body {
 
   #scroll-container {
     overflow: hidden;
-    }
-    
-  #scroll-text {
-    /* animation properties */
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-    -moz-animation: my-animation 8s linear infinite;
-    -webkit-animation: my-animation 8s linear infinite;
-    animation: my-animation 8s linear infinite;
-    }
-    
-  #scroll-text:hover {
-    -moz-animation-play-state: paused;
-    -webkit-animation-play-state: paused;
-    animation-play-state: paused;
-    }
-
-    /* for Firefox */
-    @-moz-keyframes my-animation {
-      from { -moz-transform: translateX(100%); }
-      to { -moz-transform: translateX(-100%); }
-    }
-    
-    /* for Chrome */
-    @-webkit-keyframes my-animation {
-      from { -webkit-transform: translateX(100%); }
-      to { -webkit-transform: translateX(-100%); }
-    }
-    
-    @keyframes my-animation {
-      from {
-        -moz-transform: translateX(100%);
-        -webkit-transform: translateX(100%);
-        transform: translateX(100%);
-      }
-      to {
-        -moz-transform: translateX(-100%);
-        -webkit-transform: translateX(-100%);
-        transform: translateX(-100%);
-      }
+    position: relative;
+    white-space: nowrap;
     }
 
 /* STATUS CAFE WIDGET */
@@ -205,6 +166,7 @@ body {
 /* BUTTONS */
 
 .navi-div-container {
+
   max-width: 170px;
   min-width:120px;
   border-radius: 17px;
@@ -297,7 +259,7 @@ table {
 }
 
 th {
-  border: 1px solid #dddddd;
+  border: 0px solid #fff;
   text-align: left;
   text-align: justify;
   font-weight: normal;
