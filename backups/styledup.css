@@ -1,0 +1,300 @@
+@font-face {
+    font-family: "backup"; 
+    src: url("msUIgothic.ttf") format("truetype");
+  }
+  
+  body {
+      background-color: #fff;
+      background-image: url("https://64.media.tumblr.com/e13a7db6324a9d71038fc68dfbf34755/7b1689580e284ac9-85/s500x750/a017251250a2621f3d54d21e074153d50e88c5b5.pnj");
+      font-size: 14px;
+      font-family: MS UI Gothic,  backup, 'Courier New', Courier, monospace;
+      padding: 0;
+      margin: 0;
+      }
+  
+    .wrapper {
+      background: none;
+      margin: 0 auto;
+      width: 800px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-image: url("https://64.media.tumblr.com/8e085bb8080cb9bbf98d339240bbe3e6/7b1689580e284ac9-09/s75x75_c1/7b839a41b3dcc47b16a398501f79058ed811e07c.pnj");
+      border-radius: 12px;
+      }
+  
+    .sidebar-left, .sidebar-right {
+      width: 150px;
+      }
+      
+    .main {
+      width: 440px;
+      margin-left: 180px;
+      }
+  
+    .main-left {
+      width: 605px;
+      margin-left: 15px;
+      }
+      
+    .sidebar-left {
+      margin-left: 15px;
+      }
+  
+    .sidebar-right {
+      margin-left: 15px;
+      }
+  
+    .wrapper, .links a {
+      color: #4f3d46;
+      }
+      
+    .box {
+      border: 10px solid white;
+      background: white;
+      box-shadow: 0px 0px 4px inset #00000044, 0px 0px 4px #00000044;
+      padding: 0;
+      }
+  
+    .header {
+      border: 3px dashed #333;
+      background-image: url("");
+      text-align: center;
+      margin-top: 15px;
+      margin-left: 15px;
+      margin-right: 15px;
+      top: 0;
+      height: auto;
+      }
+      
+    .links {
+      margin-top: 1em;
+      }
+      
+    .title { /*suppress title, since we're putting the title as text in the header box*/
+      display: none;
+      }
+      
+    .box h1 {
+      font-size: 16px;
+      text-align: center;
+      border: 20px solid transparent;
+      border-image: url(https://solaria.neocities.org/bits/pinklace2.png) 30 round;
+      border-image-outset: 0px 0px 0px 0px;
+      margin: 2px;
+      }
+    
+    .box h2, .box h3, .box h4 {
+      background: #facbd8;
+      margin: 0;
+      padding: 0.35em 0.25em 0.3em 0.25em;
+      text-align: center;
+      border-bottom: 3px double #333;
+      font-size: 16px;
+      }
+      
+    .inner {
+      padding: 0.25em 1em 0.3em 1em;
+      font-size: 14px;
+      }
+  
+    .inner-tamanotchi {
+      padding: 0.25em 1em 0.3em 1em;
+      margin-top: 5px;
+      display: flex;
+      flex-direction: column; /* Stacks children vertically */
+      justify-content: center; /* Centers children horizontally */
+      align-items: center; /* Centers children horizontally */
+      text-align: center;
+      }
+  
+    .inner-credits {
+      padding: 0.35em 0.25em 0.3em 0.25em;
+      display: flex;
+      justify-content: center; /* Centers content horizontally */
+      align-items: center; /* Centers content vertically */
+      height: 100%; /* Ensures the div takes up the full height of its container if not already set */
+    }
+  
+    ol {
+        list-style-type: none; /* No bullets */
+        padding-left: 0; /* Removes indentation */
+    }
+  
+    .wrapper a {
+      color: hotpink; /* You already set this, but you can change it here */
+    }
+  
+    .wrapper a:hover {
+      color: pink; /* Color when the mouse hovers over the link */
+      text-decoration: underline; /* Adds underline on hover */
+    }
+  
+  /* FOR MOBILE COMPAT */  
+    @media (orientation: portrait) {
+      .wrapper {
+        width: 96vw;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        }
+      .sidebar-left, .main, .main-left, .sidebar-right {
+        position: relative;
+        width: 92vw;
+        margin: 0.25rem 1vw;
+        }
+      }
+  
+  /* SCROLLING TEXT */
+  
+    #scroll-container {
+      overflow: hidden;
+      position: relative;
+      white-space: nowrap;
+      }
+  
+  /* STATUS CAFE WIDGET */
+  
+  #statuscafe {
+      padding: 0;
+  }
+  #statuscafe-username {
+      margin-bottom: .5em;
+      font-size: 12px;
+      text-align: center;    
+  }
+  #statuscafe-content {
+      margin: 0px 0px 0px 0px;
+      padding: 5px;
+      font-size: 12px;
+      background-color: azure;
+      border: 1px dashed midnightblue;
+  }
+  
+  /* BUTTONS */
+  
+  .navi-div-container {
+  
+    max-width: 170px;
+    min-width:120px;
+    border-radius: 17px;
+    box-shadow: -1px -1.4px 1px inset #9e9699, 2px 3px 1.5px inset white,
+      0px 0px 2px #aba4a6;
+    margin-top: 5px;
+    background-image: url("https://www.fancyparts.com/fancyparts/cg/pattern/che_a/che_a01m.gif");
+  }
+  
+  .navi-div-text {
+    color: #ccffff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: MS PGothic;
+    text-shadow: 2px 1px 1px #8dc3e2, 1px -2px 0 #8dc3e2, -1px 1px 0 #8dc3e2,
+      -1px -1px 0 #8dc3e2, 1px 0px 0 #8dc3e2, 0px 2px 0 #8dc3e2,
+      -2px 0px 0 #8dc3e2, 0px -2px 0 #8dc3e2, 2px 2px 2px rgba(221, 101, 139, 0);
+    filter: drop-shadow(1px 1px 1px white);
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  
+  /* CUSTOM SCROLLBAR */
+  
+  ::-webkit-scrollbar {
+    width: 15px;
+   height: 15px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+      background-color: #fff;
+      background-image: url(https://proxy.everskies.com/a/https://i.imgur.com/Qtm9Z60.png);
+      border-top: 1px solid #bdbdbd;
+      border-left: 1px solid #bdbdbd;
+      border-right: 1px solid black;
+      border-bottom: 1px solid black;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 15px;
+   height: 15px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+      background-color: #fff;
+      background-image: url(https://cdn.discordapp.com/attachments/1234846126994227272/1234920427785162752/scrollbar3.png?ex=66327cc5&is=66312b45&hm=55bdb91a4e6a070e56ff41e7c25cdbdc16fc427ff774adccfd07bc0a258413f9&);
+      border-top: 1px solid #bdbdbd;
+      border-left: 1px solid #bdbdbd;
+      border-right: 1px solid black;
+      border-bottom: 1px solid black;
+  }
+  
+  ::-webkit-scrollbar-track {
+      background-color: #fff;
+      background-image: url(https://cdn.discordapp.com/attachments/1234846126994227272/1234920427504271490/scrollbar2.png?ex=66327cc5&is=66312b45&hm=35fa12cc27a8719ca05bcda83039b1deb968f6fb4ab01590750f7efdf859c758&);
+  }
+  
+  ::-webkit-scrollbar-button {
+    background-color: darkgrey;
+    background-image: url('https://cdn.discordapp.com/attachments/1234846126994227272/1234920427302682634/scrollbar1.png?ex=66327cc5&is=66312b45&hm=cb8db9332dc2563a3732615ddeaced97bb2094701e578eaeee256174c7e4929e&')
+  }
+  ::-webkit-scrollbar-button:vertical:start {
+    background-position: -45px 0;
+  }
+  
+  ::-webkit-scrollbar-button:vertical:end {
+    background-position: 0 0;
+  }
+  
+  ::-webkit-scrollbar-button:horizontal:start {
+    background-position: -15px 0;
+  }
+  ::-webkit-scrollbar-button:horizontal:end {
+    background-position: -30px 0;
+  }
+  
+  /* CUSTOM SHAPES */
+  
+  .circleClip {
+    clip-path: circle(48.2% at 50% 50%);
+  }
+  
+  /* TABLES */
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto 0 auto;
+  }
+  
+  th {
+    border: 0px solid #fff;
+    text-align: left;
+    text-align: justify;
+    font-weight: normal;
+    padding: 0px 13px 0px 0px;
+    vertical-align: top ;
+  }
+  
+  tr th:nth-child(4) {
+    padding: 0px 0px 0px 0px;
+    vertical-align: top ;
+  }
+  
+  /**/
+  
+  .box-lace {
+    border:20px solid transparent;
+    border-image: url("https://foollovers.com/mat/plate-f/pf035-plate-j06.gif") 60 round;
+    background-clip: padding-box;
+    border-image-outset: 10px;
+    background: #fff;
+    margin: 15px 0px 20px 0px;
+    }
+    
+  .box-lace img {
+      max-width: 100%;
+      height: auto;
+      }
+  
