@@ -52,6 +52,23 @@
     
   </head>
 
+<style>
+iframe {
+padding: 0px;
+}
+
+.inner-tamanotchi {
+    padding: 0.25em 0em 0.3em 0em;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column; /* Stacks children vertically */
+    justify-content: center; /* Centers children horizontally */
+    align-items: center; /* Centers children horizontally */
+    text-align: center;
+    }
+
+</style>
+
 <body>
   
   <script>NekoType="lucy"</script>
@@ -70,13 +87,7 @@
 <div class=main-left><div class=box>  
     <h2 id=section-1><font style="font-size: large">sidequests! with diwa</font></h2>
         <div class=inner style="overflow:auto; height:423px">
-            <p><b style="color: hotpink">2024-05-02:</b> pages launched<i>!!</i><br>
-            <img src=https://www.fancyparts.com/fancyparts/cg/icon/dot01/dot_s_08b.gif> i finally launched the pages section of my site! practically none of them are finished but at least i've got the structures down. just gotta fill them up one by one!
-            </p>
-
-            <p><b style="color: hotpink">2024-05-01:</b> a site is born ! <img src=https://www.fancyparts.com/fancyparts/cg/icon/star01/star_s_rainbow_c.gif><br>
-            <img src=https://www.fancyparts.com/fancyparts/cg/icon/dot01/dot_s_09b.gif> at the expense of some of my schoolwork and sanity, i finally launched this site! i'm still working on the pages but i'm super excited to be able to run this as a blog once i've set everything up!
-            </p>
+          wip!
     </div></div>
     <div class=box>    
       <h2 id=section-3>under construction</h2>
@@ -90,16 +101,18 @@
 
     <div class=box>
       <h3><div id="wobble">read the latest!</div></h3><div class=inner-tamanotchi>
-        <iframe src="/iframes/read-latest.html" style="display: block" width="130" height="120px" frameborder="0"></iframe>
+        <iframe src="/iframes/read-latest.html" style="display: block" width="auto" height="130px" frameborder="0"></iframe>
             </div></div>
 
-    <div class=box>
-      <div class=inner style="margin-left: -20px">
-        <div class=inner>
-          <iframe src="/iframes/navi-blog.html" style="display: block" width="130" height="305px" frameborder="0"></iframe>
-        </div>
-      </div>
-  </div></div>
+            <div class="box" style="height: 301px; display: flex; justify-content: center; align-items: center">
+              <style>
+                iframe {
+              display:block;
+              width:90%;
+              }
+              </style>
+                <iframe src="/iframes/navi-blog-posts.html" height="301px" width="400px" frameborder="0px" margin-bottom="-10px"></iframe>
+            </div></div>
   </div>
 
 </body>

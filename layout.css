@@ -1,6 +1,6 @@
 /***
 
-BUILT WITH THIS TEMPLATE AS THE FOUNDATION: https://eggramen.neocities.org/code/css_testpages!
+BUILT ON TOP OF: https://eggramen.neocities.org/code/css_testpages!
 
 ***/
 
@@ -112,15 +112,7 @@ body {
     margin-left: 10px;
     }
     
-  /*Box used for individual sections in the sidebar, center column, etc.*/
-  .box {  
-    padding: 5px 10px 0px 10px;
-    background: #e2dcc1;
-    color: #12282f;
-    border-top: 5px solid #187b9b;
-    border-bottom: 5px solid #187b9b;
-    margin: 10px 0px 15px 0px;
-    }
+  /*Box used for individual sections in the sidebar, center column, etc. -> it's in style.css*/
     
   .box-scroll {  
     border: 3px double #333;
@@ -132,7 +124,7 @@ body {
     max-width: 100%;
     height: auto;
     }
-    
+
   /***
     Not give any style rules by default. Move the padding from the 'box' class here if you want boxes with specially styled headers or images that 
     don't follow the margins of the main text. (For an example of that: see skin #1.)
