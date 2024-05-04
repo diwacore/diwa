@@ -60,7 +60,14 @@ margin-top: 5px;
 background-image: url("https://www.fancyparts.com/fancyparts/cg/pattern/che_a/che_a01m.gif");
 }
 
-.navi-div-text {
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+#navi-div-text {
 color: #ccffff;
 font-size: 20px;
 font-weight: bold;
@@ -130,7 +137,7 @@ padding-bottom: 7px;
 
 <body>
   <div class="navi-div-container">
-    <span style="cursor:pointer"><div class="navi-div-text">blog navi</div></span>
+    <a href="/pages/blog.html" class="fill-div" id="navi-div-text">the blog!</a>
   </div>
   <p><img src="https://64.media.tumblr.com/dcce5579cde0f84b9e1e732d1a880667/f7a6e3404811c883-39/s75x75_c1/019295f8ef2270a5ae1526867508e9aceb96258e.gif" style="width: auto; height: 16px"> <a href="/pages/blog.html" style="font-weight: bold; font-size: 16px;">RETURN</a> <img src="https://64.media.tumblr.com/dcce5579cde0f84b9e1e732d1a880667/f7a6e3404811c883-39/s75x75_c1/019295f8ef2270a5ae1526867508e9aceb96258e.gif" style="width: auto; height: 16px"></p>
       <ol>
@@ -140,8 +147,8 @@ padding-bottom: 7px;
       <li><img src="https://www.fancyparts.com/fancyparts/cg/icon/ball01/ball_s_16.gif"> <a href="/pages/sitelog.html">site news</a>
       </ol>
 
-  <span style="cursor:pointer"><div class="navi-div-container"></span>
-      <div class="navi-div-text">tags</div>
+  <div class="navi-div-container">
+    <a href="/pages/blog.html" class="fill-div" id="navi-div-text">tags</a>
       </div>
           <ol>
           <li><img src="https://www.fancyparts.com/fancyparts/cg/icon/ball01/ball_s_16.gif"> <a href="/blog/tagged/meta.html">meta</a>

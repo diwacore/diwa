@@ -119,21 +119,14 @@ margin-top: 5px;
 background-image: url("https://www.fancyparts.com/fancyparts/cg/pattern/che_a/che_a01m.gif");
 }
 
-.navi-div-container {
-max-width: 145px;
-min-width: 115px;
-border-radius: 17px;
-box-shadow: -1px -1.4px 1px inset #9e9699, 2px 3px 1.5px inset white,
-  0px 0px 2px #aba4a6;
-margin-top: 5px;
-background-image: url("https://www.fancyparts.com/fancyparts/cg/pattern/che_a/che_a01m.gif");
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
 }
 
-.navi-div-container:hover {
-background-image: url("https://www.fancyparts.com/fancyparts/cg/pattern/che_a/che_a01m.gif");
-}
-
-.navi-div-text {
+#navi-div-text {
 color: #ccffff;
 font-size: 20px;
 font-weight: bold;
@@ -151,8 +144,8 @@ padding-bottom: 7px;
 </style>
 
 <body>
-    <div class="navi-div-container">
-      <span style="cursor:pointer"><div class="navi-div-text">welcome!</div></span>
+    <div class="navi-div-container" id="my-div">
+      <a href="/pages/blog.html" class="fill-div" id="navi-div-text">welcome!</a>
       </div>
           <ol>
           <li><img src="https://www.fancyparts.com/fancyparts/cg/icon/ball01/ball_s_16.gif"> <a href="/index.html">home</a> <img src="https://64.media.tumblr.com/f043fdb845ba6433928edf557df7ae78/f7a6e3404811c883-69/s75x75_c1/8c682179b62bfa8a2fd6d8b01bd878e00c39f5a1.gifv" style="width: auto; height: 10px;">
@@ -162,7 +155,7 @@ padding-bottom: 7px;
           </ol>
   
       <div class="navi-div-container">
-        <span style="cursor:pointer"><div class="navi-div-text">the blog</div></span>
+        <a href="/pages/blog.html" class="fill-div" id="navi-div-text">the blog!</a>
       </div>
   
           <ol>
@@ -172,7 +165,7 @@ padding-bottom: 7px;
           </ol>
   
           <div class="navi-div-container">
-            <span style="cursor:pointer"><div class="navi-div-text">offsite</div></span>
+            <a href="/pages/blog.html" class="fill-div" id="navi-div-text">offsite</a>
           </div>
   
           <ol>
