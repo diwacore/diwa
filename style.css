@@ -203,12 +203,6 @@ body {
     height: 100%; /* Ensures the div takes up the full height of its container if not already set */
   }
 
-  ol {
-      list-style-type: none; /* No bullets */
-      padding-left: 0; /* Removes indentation */
-      margin-top: 0px;
-  }
-
   .wrapper a {
     color: hotpink; /* You already set this, but you can change it here */
   }
@@ -367,4 +361,29 @@ th {
 tr th:nth-child(4) {
   padding: 0px 0px 0px 0px;
   vertical-align: top ;
+}
+
+/* Text area */
+textarea {
+  font-size: 12px;
+  color: #b881fe;
+  height: 50px;
+  width: 150px;
+  border-style: solid;
+  border-color: #a966ff;
+  border-width: 1px;
+  overflow: auto;
+}
+
+/* stylin */
+
+ol {
+  list-style-type: none; /* No bullets */
+  padding-left: 0; /* Removes indentation */
+  margin-top: 0px;
+}
+
+u {
+  text-decoration-line: underline;
+  text-decoration-color: #f799b3;
 }
