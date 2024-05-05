@@ -4,6 +4,11 @@
   size-adjust: 90%
 }
 
+@font-face {
+  font-family: "e"; 
+  src: url("emojifont.ttf") format("truetype");
+}
+
 body {
     background-color: #fff;
     background-image: url("/media/elements/bg/bg-stars-pastel.png");
@@ -53,7 +58,7 @@ body {
     
   .box { /* pink */
     border: 10px solid transparent;
-    border-image: url(/media/elements/bg/m10-bg-checked.gif) 23 round;
+    border-image: url(/media/elements/borders/PINK.png) 23 round;
     background: white;
     background-clip: padding-box;
     box-shadow: 0px 0px 4px inset #00000044, 0px 0px 4px transparent;
@@ -62,21 +67,21 @@ body {
     }
 
   #blue {
-    border-image: url(/media/elements/bg/m06-bg-checked.gif) 23 round;
+    border-image: url(/media/elements/borders/BLUE.png) 23 round;
   }
 
     #blue-table {
-        border-image: url() 23 round;
+        border-image: url(/media/elements/borders/BLUE.png) 23 round;
         margin: 0px 0px 0px 0px;
         }
 
   #yellow {
-    border-image: url(/media/elements/bg/m03-bg-checked-SATURATED.png) 23 round;
+    border-image: url(/media/elements/borders/YELLO.png) 23 round;
     box-shadow: 0px 0px 2px inset #00000044, 0px 0px 4px transparent;
       }
 
   #purple {
-    border-image: url(/media/elements/bg/m07-bg-checked.gif) 23 round;
+    border-image: url(/media/elements/borders/PURPLE.png) 23 round;
     }
 
   .header {
