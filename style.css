@@ -6,7 +6,7 @@
 
 body {
     background-color: #fff;
-    background-image: url("https://64.media.tumblr.com/e13a7db6324a9d71038fc68dfbf34755/7b1689580e284ac9-85/s500x750/a017251250a2621f3d54d21e074153d50e88c5b5.pnj");
+    background-image: url("/media/elements/bg/bg-stars-pastel.png");
     font-size: 14px;
     font-family: MS UI Gothic,  backup, 'Courier New', Courier, monospace;
     padding: 0;
@@ -21,7 +21,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url("https://64.media.tumblr.com/8e085bb8080cb9bbf98d339240bbe3e6/7b1689580e284ac9-09/s75x75_c1/7b839a41b3dcc47b16a398501f79058ed811e07c.pnj");
+    background-image: url("/media/elements/bg/tiled-ging.png");
     border-radius: 12px;
     }
 
@@ -53,7 +53,7 @@ body {
     
   .box { /* pink */
     border: 10px solid transparent;
-    border-image: url(https://64.media.tumblr.com/0e9eeb2ed6bafd9acc60558cfd428110/7b1689580e284ac9-0a/s75x75_c1/a843b4c533c4c2c377c60fc09e66301843f52eaf.pnj) 23 round;
+    border-image: url(/media/elements/bg/m10-bg-checked.gif) 23 round;
     background: white;
     background-clip: padding-box;
     box-shadow: 0px 0px 4px inset #00000044, 0px 0px 4px transparent;
@@ -62,21 +62,21 @@ body {
     }
 
   #blue {
-    border-image: url(https://64.media.tumblr.com/c67f611d736a6e5c74c2bb0b90b966f3/7b1689580e284ac9-b2/s75x75_c1/4ac87c2da16888a9ffbe408324d1a1d24d45c846.pnj) 23 round;
+    border-image: url(/media/elements/bg/m06-bg-checked.gif) 23 round;
   }
 
     #blue-table {
-        border-image: url(https://64.media.tumblr.com/c67f611d736a6e5c74c2bb0b90b966f3/7b1689580e284ac9-b2/s75x75_c1/4ac87c2da16888a9ffbe408324d1a1d24d45c846.pnj) 23 round;
+        border-image: url() 23 round;
         margin: 0px 0px 0px 0px;
         }
 
   #yellow {
-    border-image: url(https://64.media.tumblr.com/e9180f35289ac33ed6ceb12adf915f17/7b1689580e284ac9-a0/s75x75_c1/2cbed18a4aacb2671ee86c1a088b05bd9b06c352.pnj) 23 round;
+    border-image: url(/media/elements/bg/m03-bg-checked-SATURATED.png) 23 round;
     box-shadow: 0px 0px 2px inset #00000044, 0px 0px 4px transparent;
       }
 
   #purple {
-    border-image: url(https://64.media.tumblr.com/1e45262ed1337355de8f2a724754a9cc/7b1689580e284ac9-42/s75x75_c1/04333b362b3dacd28b6f62d9ffe3e70784ca65e2.pnj) 23 round;
+    border-image: url(/media/elements/bg/m07-bg-checked.gif) 23 round;
     }
 
   .header {
@@ -101,7 +101,7 @@ body {
     }
 
   .box h1 { /* pink */
-    background-image: url(https://foollovers.com/mat/plaid03/m10-bg-checked.gif);
+    background-image: url(/media/elements/bg/m10-bg-checked.gif);
     margin: 0;
     padding: 0.35em 0.25em 0.3em 0.25em;
     text-align: center;
@@ -121,7 +121,7 @@ body {
   }
 
   .box h2 { /* blue */
-    background-image: url(https://foollovers.com/mat/plaid03/m06-bg-checked.gif);
+    background-image: url(/media/elements/bg/m06-bg-checked.gif);
     margin: 0;
     padding: 0.35em 0.25em 0.3em 0.25em;
     text-align: center;
@@ -141,7 +141,7 @@ body {
     }
 
   .box h3 { /* yellow */
-    background-image: url(https://64.media.tumblr.com/70d8312a0f8f3bbbfa09ab97750baa99/7b1689580e284ac9-92/s75x75_c1/67b8be4b5ea9ac5741db35aa121bc9161642ea5e.pnj);
+    background-image: url(/media/elements/bg/m03-bg-checked-SATURATED.png);
     margin: 0;
     padding: 0.35em 0.25em 0.3em 0.25em;
     text-align: center;
@@ -161,7 +161,7 @@ body {
   }
 
   .box h4 { /* purple */
-    background-image: url(https://foollovers.com/mat/plaid03/m07-bg-checked.gif);
+    background-image: url(/media/elements/bg/m07-bg-checked.gif);
     margin: 0;
     padding: 0.35em 0.25em 0.3em 0.25em;
     text-align: center;
@@ -264,7 +264,7 @@ body {
   box-shadow: -1px -1.4px 1px inset #9e9699, 2px 3px 1.5px inset white,
     0px 0px 2px #aba4a6;
   margin-top: 5px;
-  background-image: url("https://64.media.tumblr.com/70d8312a0f8f3bbbfa09ab97750baa99/7b1689580e284ac9-92/s75x75_c1/67b8be4b5ea9ac5741db35aa121bc9161642ea5e.pnj");
+  background-image: url("/media/elements/bg/bg-stars-pastel.png");
 }
 
 .navi-div-text {
