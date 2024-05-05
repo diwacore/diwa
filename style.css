@@ -378,3 +378,13 @@ u {
   text-decoration-line: underline;
   text-decoration-color: #f799b3;
 }
+
+/* footer */
+.footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110px; /* Fixing height */
+  overflow: hidden;
+}
