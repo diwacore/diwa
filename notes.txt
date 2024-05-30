@@ -2,6 +2,7 @@ git add .
 git commit -m "m"
 git push
 
+ffmpeg -i IMG_2378.mp4 -c:v libvpx -crf 10 -b:v 8M -c:a libvorbis IMG_2378.webm
 
 <!DOCTYPE html>
 <html>

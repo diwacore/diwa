@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sidequests! with diwa</title>
+    <link rel="icon" type="image/x-icon" href="/media/gifs/heart-icon.gif">
+    <meta name="description" content="the blog of a hobby collector and lover of all things cute!">
+    <meta name="keywords" content="fitness, aikido, martial art">
+    <meta name="author" content="Maura Yap">
+    <link href="/layout.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+
+    <script type="text/javascript">
+    // <![CDATA[
+    var speed=100; // speed of wobbling, lower is faster
+    var height=1; // height of wobbling in pixels
+    var alink="https://tamanotchi.world/12265c"; // page to link text to (set to ="" for no link)
+    
+    /****************************
+    *    Wobbly Text Effect     *
+    *(c) 2003-6 mf2fm web-design*
+    *  http://www.mf2fm.com/rv  *
+    * DON'T EDIT BELOW THIS BOX *
+    ****************************/
+    var wobtxt, wobble, wobcnt=0;
+    window.onload=function() { if (document.getElementById) {
+      var i, wobli;
+      wobble=document.getElementById("wobble");
+      wobtxt=wobble.firstChild.nodeValue;
+      while (wobble.childNodes.length) wobble.removeChild(wobble.childNodes[0]);
+      for (i=0; i<wobtxt.length; i++) {
+        wobli=document.createElement("span");
+        wobli.setAttribute("id", "wobb"+i);
+        wobli.style.position="relative";
+        wobli.appendChild(document.createTextNode(wobtxt.charAt(i)));
+        if (alink) {
+          wobli.style.cursor="pointer";
+          wobli.onclick=function() { top.location.href=alink; }
+        }
+        wobble.appendChild(wobli);
+      }
+      setInterval("wobbler()", speed);
+    }}
+    
+    function wobbler() {
+      for (var i=0; i<wobtxt.length; i++) document.getElementById("wobb"+i).style.top=Math.round(height*Math.sin(i+wobcnt))+"px"
+      wobcnt++;
+    }
+    // ]]>
+    </script>
+    
+  </head>
+
+<style>
+
+body {
+    font-family: backup, MS UI Gothic, 'Courier New', Courier, monospace;
+    }
+
+iframe {
+padding: 0px;
+}
+
+.inner-tamanotchi {
+    padding: 0.25em 0em 0.3em 0em;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column; /* Stacks children vertically */
+    justify-content: center; /* Centers children horizontally */
+    align-items: center; /* Centers children horizontally */
+    text-align: center;
+    }
+
+</style>
+
+<body>
+  
+  <script>NekoType="lucy"</script>
+  <h1 id=nl><script src="https://webneko.net/n20171213.js"></script><a href="https://webneko.net">Neko</a></h1>
+
+
+  <div class=wrapper>
+  
+  <div class=header></div>
+  
+  <div class=wrapper-2>
+  
+<div class=main-left><div class=box>  
+    <h1><font style="font-size: large">sidequests! with diwa</font></h1>
+        <div class=inner style="overflow:auto; height:600px"><font style="font-size: large">
+            
+            <p><b>I attended an Aikido seminar!</b></p>
+                <p><center><img src="/media/pics/pe3akd-seminar.png"></center></p>
+            
+            <p>Here I am with some of my PE3 Aikido classmates, our Sensei Ian, and Shihan Ito! The seminar was held last May 11-12, 2024 and was led by Makiling Aikido International
+              where they invited Shihan Makoto Ito (6th Dan) from Hombu Dojo, Tokyo Japan.</p>
+
+            <p>I attended mostly because I'm currently taking a higher level Aikido class and got a 2.0 on the midterm exam. The exam was so embarrassing, by the way. I was so nervous that
+                I just froze up and forgot EVERYTHING I was supposed to do. Anyways, it really helps to just be able to do the moves and practice them so I blocked out my Saturday
+                and went.</p>
+
+            <p>I didn't really learn anything new; mostly just got to spar with higher-ranked people to practice (and polish) what I <i>did</i> know. I sucked it up and <i>onegai</i>'d my
+              way to sparring with a couple of black and brown belts. It was great!</p>
+
+            <p>By the way, if you have at least 2 PEs and 2 semesters left, I genuinely recommend taking PE2 AKD and then PE3 AKD (preferably, in the same school year as PE3 is seasonal to the 2nd sem).
+              Sensei Ian is a very nice, passionate, and kind teacher, and his PE classes gave me a lot of stability through the sems I took them in. Also, after paying for the registration
+              fee to the MaAI federation, passing the PE3 final exam also officially makes you a senior white belt!</p>
+                
+            <p>I'm writing this blog post a week from my final exam, and I've decided to attend the UP Aikido Club's Sunday session to review and hopefully avenge my 2.0 midterm.
+              Wish me luck so that by this day next week, I'll be a senior white belt!</p>
+
+            <hr>
+            <p><i style="font-size: 15px;">first published: 2024-05-30.</i></p>
+                    
+          
+    </div></div></div>
+
+  <div class=sidebar-right>
+
+    <div class=box id="blue">
+      <h2><div id="wobble">read the latest!</div></h2><div class=inner-tamanotchi>
+        <iframe src="/iframes/read-latest.html" style="display: block" width="auto" height="110px" frameborder="0"></iframe>
+            </div></div>
+
+            <div class="box" id="blue" style="height: 410px; display: flex; justify-content: center; align-items: center">
+              <style>
+                iframe {
+              display:block;
+              width:90%;
+              }
+              </style>
+                <iframe src="/iframes/navi-blog-main.html" height="405px" width="400px" frameborder="0px" margin-bottom="-10px"></iframe>
+            </div></div>
+  </div>
+
+</body>
+</html>
